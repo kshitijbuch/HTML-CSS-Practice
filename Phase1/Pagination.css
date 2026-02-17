@@ -1,0 +1,53 @@
+/* Just to see it nicely on the page */
+body {
+  font-family: Arial, sans-serif;
+  padding: 40px;
+}
+
+/* The grey bar */
+.pagination {
+  background: #d9d9d9;
+  border: 2px solid #7a7a7a;
+
+  /* Box model */
+  padding: 16px 18px;
+
+  /* Layout */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 22px; /* spacing between items */
+
+  /* Optional: to match the screenshot proportions */
+  width: fit-content;
+}
+
+/* Back / Next buttons */
+.nav-btn {
+  background: #efefef;
+  border: 2px solid #7a7a7a;
+
+  /* Box model */
+  padding: 10px 18px;
+  border-radius: 6px;
+
+  font-size: 20px;
+  cursor: pointer;
+}
+
+/* Page number links */
+.page {
+  font-size: 22px;
+  color: #4b2fb8; /* purple-ish like screenshot */
+  text-decoration: underline;
+  padding: 4px 6px; /* box model: gives clickable area */
+}
+
+/* Optional: hover effects */
+.nav-btn:hover {
+  filter: brightness(0.97);
+}
+
+.page:hover {
+  text-decoration-thickness: 3px;
+}

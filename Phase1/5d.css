@@ -1,0 +1,18 @@
+.title  {
+    font-family: Arial;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.apple {
+    font-style: normal;
+    font-size: 18px;
+    text-align: center;
+}
+
+.learn {
+    text-align: center;
+    cursor: pointer;
+    color: rgb(8, 101, 132);
+}

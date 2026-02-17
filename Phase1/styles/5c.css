@@ -1,0 +1,33 @@
+p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 19px;
+    font-weight: bold;
+    width: 200px;
+}
+
+.beg {
+    color: rgba(0, 0, 0, 0.466);
+    font-size: 17px;  
+    line-height: 2;
+}
+
+.learn {
+    width: 300px;
+    font-size: 16px;
+    font-weight: normal;    
+}
+
+button {
+    background-color: rgb(16, 116, 16);
+    color: white;
+    border-style: none;
+    height: 35px;
+    width: 100px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: box-shadow 0.15s;
+}
+
+button:hover {
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+}
