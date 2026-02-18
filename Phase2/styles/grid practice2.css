@@ -1,0 +1,243 @@
+.flower2 {
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    object-fit: cover;
+    vertical-align: middle;
+}
+.tweettxt {
+    font-size: 20px;
+    color: rgb(100, 99, 99);
+    vertical-align: middle;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 10px;
+    border-style: none;
+}
+.tweetbut {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: rgb(29, 155, 240);
+    color: white;
+    border-radius: 20px;
+    border-style: none;
+    cursor: pointer;
+    transition: box-shadow 0.3s;
+}
+.tweetbut:hover {
+    box-shadow: 5px 5px 6px rgba(0, 0, 0, 0.4); 
+}
+.tweetbut:active {
+    box-shadow: 5px 5px 6px rgba(0, 0, 0, 0.1); 
+}
+
+
+.div-tweet {
+    width: 400px;
+    margin-bottom: 50px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.4);
+}
+.div-tweet2 {
+    width: 400px;
+    margin-bottom: 50px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.4);
+}
+.tweetrow {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+}
+
+
+
+
+
+.flowernew {
+    width: 150px;
+    height: 180px;
+    object-fit: cover;
+}
+.oliver {
+    font-weight: bold;
+    margin-bottom: 2px;
+    margin-left: 5px;
+}
+.mutfriends {
+    margin-top: 2px;
+    margin-left: 5px;
+}
+.addfriendbut {
+    background-color: rgba(43, 87, 233, 0.906);
+    color: white;
+    border-style: none;
+    border-radius: 3px;
+    height: 30px;
+    margin-left: 5px;
+    margin-bottom: 8px;
+    cursor: pointer;
+}
+.addfriend {
+    width: 150px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.4);
+}
+
+.maxwellpic {
+    width: 150px;
+    height: 180px;
+    object-fit: cover;
+}
+.maxwell {
+    font-weight: bold;
+    margin-bottom: 2px;
+    margin-left: 5px;
+}
+.mutfriends2 {
+    margin-top: 2px;
+    margin-left: 5px;
+}
+.addfriend2 {
+    width: 150px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.4);
+}
+
+.johnpic {
+    width: 150px;
+    height: 180px;
+    object-fit: cover;
+}
+.john {
+    font-weight: bold;
+    margin-bottom: 2px;
+    margin-left: 5px;
+}
+.mutfriends3 {
+    margin-top: 2px;
+    margin-left: 5px;
+}
+.addfriend3 {
+    width: 150px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.4);
+}
+
+.kareenapic {
+    width: 150px;
+    height: 180px;
+    object-fit: cover;
+}
+.kareena {
+    font-weight: bold;
+    margin-bottom: 2px;
+    margin-left: 5px;
+}
+.mutfriends4 {
+    margin-top: 2px;
+    margin-left: 5px;
+}
+.addfriend4 {
+    width: 150px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.4);
+}
+
+.addfriendrow {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-items: center;
+}
+
+
+
+
+.flowernewnew {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+.olivernew {
+    font-weight: bold;
+    margin-bottom: 2px;
+    margin-left: 5px;
+}
+.mutfriendsnew {
+    margin-top: 2px;
+    margin-left: 5px;
+}
+.addfriendbutnew {
+    background-color: rgba(43, 87, 233, 0.906);
+    color: white;
+    border-style: none;
+    border-radius: 3px;
+    height: 30px;
+    margin-left: 5px;
+    margin-bottom: 8px;
+    cursor: pointer;
+}
+.addfriendnew {
+    width: 75%;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.4);
+}
+
+.maxwellpicnew {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+.maxwellnew {
+    font-weight: bold;
+    margin-bottom: 2px;
+    margin-left: 5px;
+}
+.mutfriends2new {
+    margin-top: 2px;
+    margin-left: 5px;
+}
+.addfriend2new {
+    width: 75%;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.4);
+}
+
+.johnpicnew {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+.johnnew {
+    font-weight: bold;
+    margin-bottom: 2px;
+    margin-left: 5px;
+}
+.mutfriends3new {
+    margin-top: 2px;
+    margin-left: 5px;
+}
+.addfriend3new {
+    width: 75%;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.4);
+}
+
+.kareenapicnew {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+.kareenanew {
+    font-weight: bold;
+    margin-bottom: 2px;
+    margin-left: 5px;
+}
+.mutfriends4new {
+    margin-top: 2px;
+    margin-left: 5px;
+}
+.addfriend4new {
+    width: 75%;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.4);
+}
+
+.addfriendrownew {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-items: center;
+    margin-top: 50px;
+}

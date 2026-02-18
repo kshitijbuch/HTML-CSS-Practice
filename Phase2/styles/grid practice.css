@@ -1,0 +1,53 @@
+html, body {
+    height: 100%;
+}
+
+body {
+    display: grid;
+    grid-template-rows: auto auto 1fr;
+}
+
+
+.grid1 {
+    display: grid;
+    grid-template-columns: 200px 75px;
+}
+
+.grid2 {
+    display: grid;
+    grid-template-columns: 50px 1fr 75px;
+    margin-top: 30px;
+}
+
+.grid3 {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin-top: 30px;
+    column-gap: 20px;
+    row-gap: 10px;
+}
+
+.box1 {
+    background-color: rgba(128, 128, 128, 0.646);
+}
+.box2 {
+    background-color: rgb(195, 135, 135);
+}
+.box3 {
+    background-color: rgba(128, 128, 128, 0.646);
+}
+.box4 {
+    background-color: rgb(195, 135, 135);
+}
+.box5 {
+    background-color: rgba(128, 128, 128, 0.646);
+}
+.box6 {
+    background-color: rgb(195, 135, 135);
+}
+.box7 {
+    background-color: rgba(128, 128, 128, 0.646);
+}
+.box8 {
+    background-color: rgb(195, 135, 135);
+}
