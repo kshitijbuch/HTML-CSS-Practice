@@ -1,39 +1,45 @@
 .name {
-        display: block;
-        margin-bottom: 10px;
-        width: 200px;
-        height:30px;
-        font-size: 15px;
-        padding-left: 10px;
-    }
-    .email {
-        display: inline;
-        width: 200px;
-        height:30px;
-        font-size: 15px;
-        padding-left: 10px;
-        display: block;
-        margin-bottom: 15px;
-    }
+    display: block;
+    margin-bottom: 10px;
+    width: 200px;
+    height:30px;
+    font-size: 15px;
+    padding-left: 10px;
+}
+.email {
+    display: inline;
+    width: 200px;
+    height:30px;
+    font-size: 15px;
+    padding-left: 10px;
+    display: block;
+    margin-bottom: 15px;
+}
 
-    .paracustsup {
-        display: inline-block;
-        width: 260px;
-        font-size: 20px;
-        vertical-align: middle;
-    }
+.paracustsup {
+    display: inline-block;
+    width: 260px;
+    font-size: 20px;
+    vertical-align: middle;
+}
 
-    .yes,
-    .no {
-        display: inline-block;
-        vertical-align: middle;
-        cursor: pointer;
-    }
-    .no {
-        margin-left: 5px;
-    }
+.yes,
+.no {
+    display: inline-block;
+    vertical-align: middle;
+    cursor: pointer;
+}
+.no {
+    margin-left: 5px;
+}
 
-    .searchgoogle {
+.googlelogo {
+    width: 500px;
+    display: block;
+    margin-left: 400px;
+}
+
+.searchgoogle {
     height: 40px;
     width:800px;
     font-size: 20px;
@@ -44,11 +50,63 @@
     border-radius: 7px;
     color: rgb(100, 99, 99);
     margin-left: 250px;
+    margin-bottom: 50px;
     padding-left: 40px;
-    }
+    display: block;
+}
 
-    .googlelogo {
-        width: 500px;
-        display: block;
-        margin-left: 400px;
-    }
+.firstname, 
+.lastname {
+    display: inline-block;
+    width: 130px;
+    height: 25px;
+}
+.email {
+    display: block;
+    width: 264px;
+    margin-top: 8px;
+    margin-bottom: 10px;
+    height: 25px;
+}
+.signup {
+    display: block;
+    font-size: 15px;
+    border-style: none;
+    color: white;
+    background-color: rgba(44, 44, 194, 0.893);
+    width: 281px;
+    height: 40px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-bottom: 80px;
+}
+
+.requestride {
+    font-size: 30px;
+    font-weight: bolder;
+}
+.pickuploc,
+.destination {
+    display: block;
+    margin-bottom: 8px;
+    width: 300px;
+    height: 30px
+}
+.destination {
+    margin-bottom: 30px;
+}
+.requestnow,
+.schedulelater {
+    display: inline-block;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
+    border-style: none;
+    cursor: pointer;
+}
+.requestnow {
+    background-color: black;
+    color: white;
+    margin-right: 10px;
+}
